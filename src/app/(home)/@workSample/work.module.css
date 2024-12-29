@@ -1,0 +1,7 @@
+.work{
+  background-color:hsla(0,0%,100%,1);
+background-image:
+radial-gradient(at 82% 53%, hsla(22,68%,88%,1) 0px, transparent 50%),
+radial-gradient(at 27% 38%, rgb(218, 218, 248) 0px, transparent 50%),
+radial-gradient(at 26% 70%, hsla(240,71%,86%,1) 0px, transparent 50%);
+}

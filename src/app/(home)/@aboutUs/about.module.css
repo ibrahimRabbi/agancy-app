@@ -1,0 +1,6 @@
+.abBackGround{
+background-color:hsla(0,0%,100%,1);
+background-image:
+radial-gradient(at 75% 51%, hsla(240,67%,84%,1) 0px, transparent 50%),
+radial-gradient(at 0% 0%, hsla(339,0%,100%,1) 0px, transparent 50%);
+}

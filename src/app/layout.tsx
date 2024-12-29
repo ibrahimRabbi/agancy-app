@@ -19,15 +19,21 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  navber,
+  footer
 }: Readonly<{
   children: React.ReactNode;
+  navber: React.ReactNode;
+  footer:React.ReactNode
 }>) {
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {navber}
         {children}
+        {footer}
       </body>
     </html>
   );
